@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Outfit:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.qr-image{
+    width: 280px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.qr-title{
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    margin: 0;
+}
+
+.qr-desc{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    margin: 0;
+}
+
+.card{
+    background-color: white;
+    width: 280px;
+    height: min-content;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    gap: 15px;
+}
